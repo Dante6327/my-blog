@@ -26,9 +26,11 @@ export default function RootLayout({
       <body className="flex flex-col overflow-auto mx-auto max-w-3xl lg:max-w-6xl ">
         <Providers>
           <RecoilRoot>
-            <Header />
-            <Content>{children}</Content>
-            <Footer />
+            <div className="px-8">
+              <Header />
+              <Content>{children}</Content>
+              <Footer />
+            </div>
           </RecoilRoot>
         </Providers>
       </body>

@@ -5,7 +5,7 @@ import Instagram from "./svg/Instagram";
 
 const Footer = () => {
   return (
-    <section className="m-4 pt-2 border-t-[0.5px] border-slate-400 text-xs text-right">
+    <section className="my-4 pt-2 border-t-[0.5px] border-slate-400 text-xs text-right">
       <br />
       <div className="flex items-center flex-row-reverse">
         <Instagram />
