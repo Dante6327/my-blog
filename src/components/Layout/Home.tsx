@@ -3,7 +3,7 @@ import { isOpenMenu } from "@/recoil/Status";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useSetRecoilState } from "recoil";
-import menuLogo from "../../../public/icons/nav/w-menu.png";
+import menuLogo from "../../../public/icons/nav/menuLogo.png";
 import homeLogo from "../../../public/icons/nav/w-house.png";
 import Link from "next/link";
 

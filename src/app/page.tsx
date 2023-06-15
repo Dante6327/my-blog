@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Profile from "@/components/Home/Profile";
 
 export default function HomePage() {
-  return <>my blog</>;
+  return (
+    <section>
+      <Profile />
+    </section>
+  );
 }
