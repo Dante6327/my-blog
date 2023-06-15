@@ -3,7 +3,8 @@ import { isOpenMenu } from "@/recoil/Status";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useSetRecoilState } from "recoil";
-import homeLogo from "../../../public/icons/nav/home-logo.png";
+import menuLogo from "../../../public/icons/nav/w-menu.png";
+import homeLogo from "../../../public/icons/nav/w-house.png";
 import Link from "next/link";
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
   }, [setLoaded]);
 
   useEffect(() => {
-    const observer = new ResizeObserver((entries, bserver) => {
+    const observer = new ResizeObserver((entries) => {
       for (let entry of entries) {
         const { width } = entry.contentRect;
         if (width >= 768) {
@@ -43,7 +44,7 @@ const Home = () => {
             <Image
               src={homeLogo}
               alt="home icon"
-              className="invisible md:visible w-10"
+              className="invisible md:visible w-8"
               priority
             />
           )}
@@ -51,9 +52,9 @@ const Home = () => {
       ) : (
         <button onClick={() => handleClick()}>
           <Image
-            src={homeLogo}
+            src={menuLogo}
             alt="menu icon"
-            className="visible md:invisible w-10"
+            className="visible md:invisible w-8"
             priority
           />
         </button>
