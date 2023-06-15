@@ -25,7 +25,7 @@ const Home = () => {
     const observer = new ResizeObserver((entries) => {
       for (let entry of entries) {
         const { width } = entry.contentRect;
-        if (width >= 768) {
+        if (width >= 640) {
           setIsOverLaptop(true);
           setOpenMenu(false);
         } else {
@@ -44,7 +44,7 @@ const Home = () => {
             <Image
               src={homeLogo}
               alt="home icon"
-              className="invisible md:visible w-8"
+              className="invisible sm:visible w-8"
               priority
             />
           )}
@@ -54,7 +54,7 @@ const Home = () => {
           <Image
             src={menuLogo}
             alt="menu icon"
-            className="visible md:invisible w-8"
+            className="visible sm:invisible w-8"
             priority
           />
         </button>

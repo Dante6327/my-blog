@@ -24,13 +24,13 @@ export default function RootLayout({
   return (
     <html lang="ko" className={quickSand.className}>
       <body className="flex flex-col overflow-auto">
-        <RecoilRoot>
-          <Providers>
+        <Providers>
+          <RecoilRoot>
             <Header />
             <Content>{children}</Content>
             <Footer />
-          </Providers>
-        </RecoilRoot>
+          </RecoilRoot>
+        </Providers>
       </body>
     </html>
   );

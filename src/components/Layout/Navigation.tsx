@@ -7,7 +7,7 @@ import Link from "next/link";
 const Navigation = () => {
   return (
     <nav className="flex">
-      <ul className="hidden md:flex gap-4 items-center font-bold mr-2">
+      <ul className="hidden sm:flex gap-4 items-center font-bold mr-2">
         {MENU_LIST.map(({ id, endpoint, name }) => (
           <li
             key={id}

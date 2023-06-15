@@ -1,3 +1,5 @@
+const { transform } = require("typescript");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -12,6 +14,19 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        fadeIn: "fadeInLeft 0.5s ease-in-out",
+      },
+      keyframes: () => ({
+        fadeInLeft: {
+          "0%": {
+            opacity: 0,
+          },
+          "100%": {
+            opacity: 1,
+          },
+        },
+      }),
     },
     screens: {
       sm: "640px",

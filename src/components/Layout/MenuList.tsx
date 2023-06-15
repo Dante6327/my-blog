@@ -4,7 +4,7 @@ import React from "react";
 
 const MenuList = () => {
   return (
-    <ul className="my-2 font-semibold text-lg w-screen text-center">
+    <ul className="my-2 font-semibold text-lg w-screen text-center animate-fadeIn">
       {MENU_LIST.map((menu) => (
         <li
           key={menu.id}
