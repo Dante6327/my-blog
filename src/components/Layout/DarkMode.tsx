@@ -25,6 +25,7 @@ const DarkMode = () => {
   return (
     <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
       <Image
+        className="w-6"
         src={theme === "dark" ? day : night}
         alt="darkmode button"
         priority

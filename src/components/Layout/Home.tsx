@@ -44,7 +44,7 @@ const Home = () => {
             <Image
               src={homeLogo}
               alt="home icon"
-              className="invisible sm:visible w-8"
+              className="invisible sm:visible w-6"
               priority
             />
           )}
@@ -54,7 +54,7 @@ const Home = () => {
           <Image
             src={menuLogo}
             alt="menu icon"
-            className="visible sm:invisible w-8"
+            className="visible sm:invisible w-6"
             priority
           />
         </button>
