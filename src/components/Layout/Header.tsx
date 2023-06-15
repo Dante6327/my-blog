@@ -6,7 +6,7 @@ import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <header className="flex justify-between sm:justify-around items-center p-4">
+    <header className="flex justify-between  items-center p-4">
       <Home />
       <Navigation />
     </header>

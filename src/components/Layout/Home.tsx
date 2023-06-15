@@ -25,6 +25,7 @@ const Home = () => {
     const observer = new ResizeObserver((entries) => {
       for (let entry of entries) {
         const { width } = entry.contentRect;
+        console.log(width);
         if (width >= 640) {
           setIsOverLaptop(true);
           setOpenMenu(false);
