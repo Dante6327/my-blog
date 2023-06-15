@@ -6,7 +6,7 @@ type Props = {
   children: React.ReactNode;
 };
 const Providers = ({ children }: Props) => {
-  return <ThemeProvider>{children}</ThemeProvider>;
+  return <ThemeProvider attribute="class">{children}</ThemeProvider>;
 };
 
 export default Providers;

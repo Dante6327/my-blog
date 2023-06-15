@@ -26,3 +26,23 @@ export async function getNonFeaturedPosts(): Promise<Post[]> {
   const posts = await getAllPosts();
   return posts.filter((post) => !post.featured);
 }
+
+export type PostData = Post & { content: string };
+export async function getPostData(filename: string): Promise<PostData> {
+  const filepath = path.join(
+    process.cwd(),
+    "public",
+    "data",
+    "posts",
+    `${filename}.md`
+  );
+  console.log(filepath);
+  const metadata = await getAllPosts().then((post) =>
+    post.find((post) => post.path === filename)
+  );
+  if (!metadata)
+    throw new Error(`${filename}에 해당하는 포스트를 찾을 수 없습니다.`);
+
+  const content = await readFile(filepath, "utf-8");
+  return { ...metadata, content };
+}

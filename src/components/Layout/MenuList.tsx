@@ -20,7 +20,7 @@ const MenuList = () => {
 export default MenuList;
 
 export const MENU_LIST = [
-  { id: 1, name: "Blog", endpoint: "/blog" },
+  { id: 1, name: "Posts", endpoint: "/posts" },
   { id: 2, name: "Project", endpoint: "/project" },
   { id: 3, name: "Contact", endpoint: "/contact" },
 ];
