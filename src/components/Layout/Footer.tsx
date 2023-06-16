@@ -11,7 +11,7 @@ const Footer = () => {
         &nbsp;
         <Github />
       </div>
-      © 2023~ dante blog Powered by Next.js, Github Pages
+      © 2023~ dante blog Powered by Next.js, Vercel
     </section>
   );
 };
