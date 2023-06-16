@@ -21,15 +21,15 @@ const Filterableposts = ({ posts, categories }: Props) => {
 
   return (
     <section className="pt-10">
-      <CategoryTitle selected={selected} />
-      <div className="flex m-4">
-        <PostGrid posts={filtered} />
-        <Categories
-          categories={[ALL_POSTS, ...categories]}
-          selected={selected}
-          onClick={setSelected}
-        />
-      </div>
+      <h1 className="ml-4 mb-2 text-4xl font-bold">Posts</h1>
+      {/* <CategoryTitle selected={selected} /> */}
+      <Categories
+        categories={[ALL_POSTS, ...categories]}
+        selected={selected}
+        onClick={setSelected}
+      />
+      <PostGrid posts={filtered} />
+      <div className="flex m-4"></div>
     </section>
   );
 };

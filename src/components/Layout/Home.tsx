@@ -25,6 +25,7 @@ const Home = () => {
     const observer = new ResizeObserver((entries) => {
       for (let entry of entries) {
         const { width } = entry.contentRect;
+        console.log(width);
         if (width >= 640) {
           setIsOverLaptop(true);
           setOpenMenu(false);
@@ -61,7 +62,7 @@ const Home = () => {
       )}
       <Link href="/">
         <span className="pl-2 text-xl font-bold rounded hover:bg-gray-500 p-1 transition-all duration-600">
-          JP&apos;s Blog
+          <button onClick={() => setOpenMenu(false)}>JP&apos;s Blog</button>
         </span>
       </Link>
     </div>
