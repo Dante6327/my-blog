@@ -10,7 +10,7 @@ const MenuList = () => {
     setOpenMenu((prev) => !prev);
   };
   return (
-    <ul className="my-2 font-semibold text-lg w-screen text-center animate-fadeIn">
+    <ul className="my-2 font-semibold text-lg w-full text-center animate-fadeIn">
       {MENU_LIST.map((menu) => (
         <li
           key={menu.id}
@@ -30,5 +30,6 @@ export default MenuList;
 export const MENU_LIST = [
   { id: 1, name: "Posts", endpoint: "/posts" },
   { id: 2, name: "Project", endpoint: "/project" },
-  { id: 3, name: "Contact", endpoint: "/contact" },
+  { id: 3, name: "About", endpoint: "/about" },
+  { id: 4, name: "Contact", endpoint: "/contact" },
 ];
