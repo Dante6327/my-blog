@@ -7,7 +7,7 @@ import Velog from "../Layout/svg/Velog";
 
 const Profile = () => {
   return (
-    <section className="overflow-hidden border-t-[0.5px] border-gray-400">
+    <section className="overflow-hidden">
       <div className="flex justify-center items-center mx-auto">
         <Image
           className="w-24 h-24 my-8 rounded-full sm:w-32 sm:h-32"
@@ -21,7 +21,7 @@ const Profile = () => {
             <Github />
             <Velog />
           </p>
-          <span className="text-xs bg-slate-300 rounded-lg p-[2px] px-2">
+          <span className="text-xs bg-slate-300 dark:bg-slate-800 rounded-lg p-[2px] px-2">
             <Link href="/contact">Contact Me!</Link>
           </span>
         </div>
