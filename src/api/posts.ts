@@ -34,7 +34,7 @@ export async function getPostData(filename: string): Promise<PostData> {
     "public",
     "data",
     "posts",
-    `${filename}.mdx`
+    `${filename}.md`
   );
 
   const metadata = await getAllPosts().then((post) =>

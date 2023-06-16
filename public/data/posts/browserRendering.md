@@ -19,9 +19,6 @@ console.log(temp);
 
 2. Render Tree 생성 (style)
    앞서 생성된 DOM, CSSOM을 가지고 서로를 매칭시켜 render tree를 생성한다.
-
-   ![img](https://www.google.com/imgres?imgurl=https%3A%2F%2Ftecoble.techcourse.co.kr%2Fstatic%2F1d5973bb2abd4ea8580e2d6f9f286640%2F1805d%2F2021-10-24-browser-rendering-1.png&tbnid=yiD60RXtIxgHBM&vet=12ahUKEwjTxIbx98b_AhUHad4KHcekA-UQMygCegUIARDGAQ..i&imgrefurl=https%3A%2F%2Ftecoble.techcourse.co.kr%2Fpost%2F2021-10-24-browser-rendering%2F&docid=zy13HXTezSAAzM&w=1746&h=440&q=%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%A0%8C%EB%8D%94%EB%A7%81&ved=2ahUKEwjTxIbx98b_AhUHad4KHcekA-UQMygCegUIARDGAQ)
-
 3. 노드의 위치를 계산하기 (paint)
    Render Tree를 가지고 각 노드를 화면상의 실제 px로 변경하는 과정을 거친다. 이 때 css 스타일링 관련된 작업도 함께 들어간다.
 
