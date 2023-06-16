@@ -5,7 +5,7 @@ import remarkGfm from "remark-gfm";
 const MarkdownViewer = ({ content }: { content: string }) => {
   return (
     <ReactMarkdown
-      className="prose dark:prose-invert prose-stone lg:prose-xl mx-auto pt-16"
+      className="prose dark:prose-invert prose-stone lg:prose-lg mx-auto pt-16"
       remarkPlugins={[remarkGfm]}
     >
       {content}

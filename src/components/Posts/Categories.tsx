@@ -8,7 +8,7 @@ type Props = {
 const Categories = ({ categories, selected, onClick }: Props) => {
   return (
     <section className="text-center p-4">
-      <h2 className="text-lg font-bold border-b border-sky-500 mb-2">
+      <h2 className="text-md font-semibold border-b border-sky-500 mb-2">
         Category
       </h2>
       <ul>

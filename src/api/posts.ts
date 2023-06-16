@@ -34,9 +34,9 @@ export async function getPostData(filename: string): Promise<PostData> {
     "public",
     "data",
     "posts",
-    `${filename}.md`
+    `${filename}.mdx`
   );
-  console.log(filepath);
+
   const metadata = await getAllPosts().then((post) =>
     post.find((post) => post.path === filename)
   );

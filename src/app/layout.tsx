@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" className={quickSand.className}>
-      <body className="flex flex-col overflow-auto mx-auto max-w-3xl lg:max-w-6xl ">
+      <body className="flex flex-col overflow-auto mx-auto max-w-3xl lg:max-w-6xl">
         <Providers>
           <RecoilRoot>
             <div className="px-8">

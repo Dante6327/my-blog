@@ -1,9 +1,9 @@
 [
   {
     "title": "browserRendering",
-    "description": "포스트 데모 1번입니다.",
+    "description": "브라우저 렌더링 과정을 알아보았습니다.",
     "date": "2021-12-31",
-    "category": "my story",
+    "category": "study",
     "path": "browserRendering",
     "featured": true
   },
