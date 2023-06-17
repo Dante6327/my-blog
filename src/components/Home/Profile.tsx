@@ -8,8 +8,11 @@ const Profile = () => {
       <div className="text-lg">
         <p>I&apos;m Frontend Developer</p>
         <p>My development values prioritize user experience.</p>
-        <p className="text-slate-400">
-          <a href="https://purrfect-corleggy-40a.notion.site/b378dbeb6ca2490fbde41b86e7abf77e?pvs=4">
+        <p className="mt-4">
+          <a
+            href="https://purrfect-corleggy-40a.notion.site/b378dbeb6ca2490fbde41b86e7abf77e?pvs=4"
+            className="text-sm bg-slate-300 dark:bg-slate-800 rounded-lg px-2 hover:bg-slate-600 hover:text-white dark:hover:bg-slate-300 dark:hover:text-black"
+          >
             More About Me →
           </a>
         </p>

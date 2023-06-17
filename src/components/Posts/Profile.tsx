@@ -21,9 +21,16 @@ const Profile = () => {
             <Github />
             <Velog />
           </p>
-          <span className="text-xs bg-slate-300 dark:bg-slate-800 rounded-lg p-[2px] px-2">
-            <Link href="/contact">Contact Me!</Link>
-          </span>
+          <div className="flex text-xs justify-between">
+            <p className="bg-slate-300 dark:bg-slate-800 rounded-lg px-1">
+              <Link href="/contact">Contact Me!</Link>
+            </p>
+            <p className="bg-green-200 dark:bg-green-500 rounded-lg px-1">
+              <a href="https://purrfect-corleggy-40a.notion.site/b378dbeb6ca2490fbde41b86e7abf77e?pvs=4">
+                More About Me!
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
