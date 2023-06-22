@@ -1,4 +1,3 @@
-"use client";
 import React, { FormEvent, useState } from "react";
 import Header from "./Header";
 import EmailComponent from "./EmailComponent";
