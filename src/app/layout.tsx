@@ -3,7 +3,7 @@ import { Quicksand } from "next/font/google";
 import Header from "@/components/Layout/Header";
 import Content from "@/components/Layout/Content";
 import Footer from "@/components/Layout/Footer";
-import RecoilRoot from "@/recoil/RecoilRoot";
+import RecoilRoot from "../../recoil/RecoilRoot";
 import Providers from "@/components/Layout/Providers";
 
 const quickSand = Quicksand({
@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ko" className={quickSand.className}>
-      <body className="flex flex-col overflow-auto mx-auto max-w-3xl lg:max-w-6xl">
+      <body className="flex flex-col overflow-auto mx-auto min-w-[465px] max-w-3xl lg:max-w-6xl">
         <Providers>
           <RecoilRoot>
             <div className="px-8">

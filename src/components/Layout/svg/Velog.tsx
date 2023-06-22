@@ -1,6 +1,11 @@
 import React from "react";
 
-const Velog = () => {
+type Props = {
+  width: number;
+  height: number;
+};
+
+const Velog = ({ width, height }: Props) => {
   return (
     <a href="https://velog.io/@jin_jin_dev">
       <svg
@@ -8,8 +13,8 @@ const Velog = () => {
         viewBox="0 0 24 24"
         xmlns="http://www.w3.org/2000/svg"
         id="IconChangeColor"
-        height="16"
-        width="16"
+        height={`${width ? width : "16"}`}
+        width={`${height ? height : "16"}`}
       >
         <title>Velog</title>
         <path

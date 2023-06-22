@@ -1,12 +1,17 @@
 import React from "react";
 
-const Github = () => {
+type Props = {
+  width: number;
+  height: number;
+};
+
+const Github = ({ width, height }: Props) => {
   return (
     <a href="https://github.com/Dante6327">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
+        width={`${width ? width : "16"}`}
+        height={`${height ? height : "16"}`}
         fill="currentColor"
         viewBox="0 0 16 16"
         id="IconChangeColor"

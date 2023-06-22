@@ -1,5 +1,5 @@
 "use client";
-import { isOpenMenu } from "@/recoil/Status";
+import { isOpenMenu } from "../../../recoil/Status";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { useSetRecoilState } from "recoil";
@@ -25,7 +25,6 @@ const Home = () => {
     const observer = new ResizeObserver((entries) => {
       for (let entry of entries) {
         const { width } = entry.contentRect;
-        console.log(width);
         if (width >= 640) {
           setIsOverLaptop(true);
           setOpenMenu(false);

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useRecoilValue } from "recoil";
-import { isOpenMenu } from "@/recoil/Status";
+import { isOpenMenu } from "../../../recoil/Status";
 import MenuList from "./MenuList";
 
 type ContentProps = {

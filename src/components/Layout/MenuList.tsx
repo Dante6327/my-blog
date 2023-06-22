@@ -1,4 +1,4 @@
-import { isDarkMode, isOpenMenu } from "@/recoil/Status";
+import { isDarkMode, isOpenMenu } from "../../../recoil/Status";
 import Link from "next/link";
 import React from "react";
 import { useSetRecoilState } from "recoil";

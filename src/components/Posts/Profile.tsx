@@ -22,7 +22,7 @@ const Profile = () => {
             <Velog />
           </p>
           <div className="flex text-xs justify-between">
-            <p className="bg-slate-300 dark:bg-slate-800 rounded-lg px-1">
+            <p className="bg-slate-300 dark:bg-slate-600 rounded-lg px-1">
               <Link href="/contact">Contact Me!</Link>
             </p>
             <p className="bg-green-200 dark:bg-green-500 rounded-lg px-1">
