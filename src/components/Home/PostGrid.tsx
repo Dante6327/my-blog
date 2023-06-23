@@ -1,5 +1,5 @@
 import React from "react";
-import type { Post } from "@/api/posts";
+import type { Post } from "@/service/posts";
 import PostCard from "./PostCard";
 
 type Props = {

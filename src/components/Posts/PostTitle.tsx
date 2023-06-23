@@ -1,4 +1,4 @@
-import { Post } from "@/api/posts";
+import { Post } from "@/service/posts";
 import React from "react";
 
 type Props = {

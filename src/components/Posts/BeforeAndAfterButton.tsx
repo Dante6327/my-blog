@@ -1,4 +1,4 @@
-import { Post } from "@/api/posts";
+import { Post } from "@/service/posts";
 import Link from "next/link";
 import React from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";

@@ -1,4 +1,4 @@
-import { getAllPosts, getFeaturedPosts } from "@/api/posts";
+import { getAllPosts, getFeaturedPosts } from "@/service/posts";
 import React from "react";
 import PostGrid from "./PostGrid";
 

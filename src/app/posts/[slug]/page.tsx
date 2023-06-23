@@ -1,4 +1,4 @@
-import { getAllPosts, getPostData } from "@/api/posts";
+import { getAllPosts, getPostData } from "@/service/posts";
 import BeforeAndAfterPosts from "@/components/Posts/BeforeAndAfterPosts";
 import MarkdownViewer from "@/components/Posts/MarkdownViewer";
 import PostTitle from "@/components/Posts/PostTitle";

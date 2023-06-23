@@ -1,4 +1,4 @@
-import { getAllPosts } from "@/api/posts";
+import { getAllPosts } from "@/service/posts";
 import Filterableposts from "@/components/Posts/Filterableposts";
 import React from "react";
 
