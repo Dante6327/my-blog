@@ -10,6 +10,14 @@ type Props = {
   };
 };
 
+export async function generateMetadata({ params: { slug } }: Props) {
+  const { title, description } = await getPostData(slug);
+  return {
+    title,
+    description,
+  };
+}
+
 const DetailPage = async ({ params: { slug } }: Props) => {
   const post = await getPostData(slug);
   const reversePosts = (await getAllPosts()).reverse();

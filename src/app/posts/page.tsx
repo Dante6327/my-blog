@@ -1,6 +1,12 @@
 import { getAllPosts } from "@/service/posts";
 import Filterableposts from "@/components/Posts/Filterableposts";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "All Posts",
+  description: "Dante의 Post 글",
+};
 
 const PostsPage = async () => {
   const posts = await getAllPosts();
