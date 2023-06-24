@@ -4,7 +4,6 @@
 
 ```javascript
 const temp = 123;
-console.log(temp);
 ```
 
 ### 렌더링 동작 과정

@@ -17,6 +17,7 @@ const PostsPage = async () => {
   const storyTitle = [...new Set(posts.map((post) => post.storyTitle))].filter(
     (title) => title
   );
+
   const storyObj = [
     ...new Set(
       stories.map((story) => {
