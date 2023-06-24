@@ -1,11 +1,13 @@
 [
   {
-    "title": "browserRendering",
-    "description": "포스트 데모 1번입니다.",
-    "date": "2021-12-31",
-    "category": "my story",
-    "path": "browserRendering",
-    "featured": true
+    "title": "[Next.js] 블로그 프로젝트 준비",
+    "description": "블로그를 만들 때 어떤 것을 고려해야 할까?🧐",
+    "date": "2023-06-25",
+    "category": "story",
+    "path": "nextjs-blog-01",
+    "featured": true,
+    "storyTitle": "Next.js로 블로그 만들기",
+    "story": "nextjs-bolg"
   },
   {
     "title": "demo02",
@@ -13,7 +15,9 @@
     "date": "2022-01-10",
     "category": "frontend",
     "path": "demo02",
-    "featured": true
+    "featured": true,
+    "storyTitle": "Next.js로 블로그 만들기",
+    "story": "nextjs-bolg"
   },
   {
     "title": "demo03",
@@ -21,7 +25,9 @@
     "date": "2022-02-12",
     "category": "my story",
     "path": "demo03",
-    "featured": true
+    "featured": true,
+    "storyTitle": "Next.js로 블로그 만들기",
+    "story": "nextjs-bolg"
   },
   {
     "title": "demo04",
@@ -29,7 +35,9 @@
     "date": "2022-03-15",
     "category": "my story",
     "path": "demo04",
-    "featured": false
+    "featured": false,
+    "storyTitle": "Next.js로 블로그 만들기",
+    "story": "nextjs-bolg"
   },
   {
     "title": "demo05",
@@ -37,7 +45,9 @@
     "date": "2022-04-21",
     "category": "my story",
     "path": "demo05",
-    "featured": false
+    "featured": false,
+    "storyTitle": "Next.js로 블로그 만들기",
+    "story": "nextjs-bolg"
   },
   {
     "title": "demo06",
@@ -45,7 +55,9 @@
     "date": "2022-05-31",
     "category": "my story",
     "path": "demo06",
-    "featured": true
+    "featured": true,
+    "storyTitle": "Next.js로 블로그 만들기",
+    "story": "nextjs-bolg"
   },
   {
     "title": "demo07",
@@ -53,7 +65,9 @@
     "date": "2022-06-01",
     "category": "my story",
     "path": "demo07",
-    "featured": false
+    "featured": false,
+    "storyTitle": "Next.js로 블로그 만들기",
+    "story": "nextjs-bolg"
   },
   {
     "title": "demo08",
@@ -61,7 +75,9 @@
     "date": "2022-07-19",
     "category": "my story",
     "path": "demo08",
-    "featured": true
+    "featured": true,
+    "storyTitle": "",
+    "story": ""
   },
   {
     "title": "demo09",
@@ -69,6 +85,8 @@
     "date": "2022-08-20",
     "category": "my story",
     "path": "demo09",
-    "featured": false
+    "featured": false,
+    "storyTitle": "",
+    "story": ""
   }
 ]

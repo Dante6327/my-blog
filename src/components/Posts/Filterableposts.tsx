@@ -3,7 +3,6 @@ import { Post } from "@/service/posts";
 import React, { useState } from "react";
 import PostGrid from "../Home/PostGrid";
 import Categories from "./Categories";
-import CategoryTitle from "./CategoryTitle";
 
 type Props = {
   posts: Post[];
@@ -22,14 +21,14 @@ const Filterableposts = ({ posts, categories }: Props) => {
   return (
     <section className="pt-10">
       <h1 className="ml-4 mb-2 text-4xl font-bold">Posts</h1>
-      {/* <CategoryTitle selected={selected} /> */}
-      <Categories
-        categories={[ALL_POSTS, ...categories]}
-        selected={selected}
-        onClick={setSelected}
-      />
-      <PostGrid posts={filtered} />
-      <div className="flex m-4"></div>
+      <div className="m-4">
+        <Categories
+          categories={[ALL_POSTS, ...categories]}
+          selected={selected}
+          onClick={setSelected}
+        />
+        <PostGrid posts={filtered} />
+      </div>
     </section>
   );
 };

@@ -14,7 +14,7 @@ const Categories = ({ categories, selected, onClick }: Props) => {
       <ul className="flex ">
         {categories.map((category) => (
           <li
-            className={`cursor-pointer hover:text-gray-500 mr-4  ${
+            className={`cursor-pointer hover:text-gray-500 mr-4 ${
               category === selected && "text-gray-600 underline"
             }`}
             key={category}

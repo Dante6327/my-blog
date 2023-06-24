@@ -9,6 +9,8 @@ export type Post = {
   category: string;
   path: string;
   featured: boolean;
+  story: string;
+  storyTitle: string;
 };
 
 export const getAllPosts = cache(async () => {
@@ -26,6 +28,11 @@ export async function getFeaturedPosts(): Promise<Post[]> {
 export async function getNonFeaturedPosts(): Promise<Post[]> {
   const posts = await getAllPosts();
   return posts.filter((post) => !post.featured);
+}
+
+export async function getStoryPosts(story: string): Promise<Post[]> {
+  const posts = await getAllPosts();
+  return posts.filter((post) => post.story === story);
 }
 
 export type PostData = Post & { content: string };
