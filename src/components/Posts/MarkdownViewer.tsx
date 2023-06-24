@@ -31,6 +31,7 @@ const MarkdownViewer = ({ content }: { content: string }) => {
         },
         img: (image) => (
           <Image
+            className="w-full"
             src={image.src || ""}
             alt={image.alt || ""}
             width={500}
