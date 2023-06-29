@@ -8,7 +8,6 @@ export async function sendContactEmail(email: EmailData) {
       "Content-Type": "application/json",
     },
   });
-  console.log("contact.ts sendContactEmail", response);
 
   const data = await response.json();
   if (!response.ok) {
