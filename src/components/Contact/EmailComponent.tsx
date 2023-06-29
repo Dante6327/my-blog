@@ -25,6 +25,7 @@ const EmailComponent = () => {
 
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    console.log("form data", form);
     sendContactEmail(form)
       .then(() => {
         setBanner({
