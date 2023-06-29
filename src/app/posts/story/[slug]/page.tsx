@@ -10,7 +10,7 @@ type Props = {
 };
 
 const StoryPage = async ({ params: { slug } }: Props) => {
-  const storyPosts = await getStoryPosts(slug);
+  const storyPosts = (await getStoryPosts(slug)).reverse();
 
   return (
     <article className="my-20">

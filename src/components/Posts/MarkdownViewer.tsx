@@ -9,7 +9,7 @@ import Image from "next/image";
 const MarkdownViewer = ({ content }: { content: string }) => {
   return (
     <ReactMarkdown
-      className="prose dark:prose-invert prose-stone lg:prose-lg mx-auto pt-16 max-w-none  border-b-[0.5px] border-gray-400"
+      className="prose dark:prose-invert prose-stone lg:prose-lg mx-auto pt-16 max-w-none  border-b-[0.5px] border-gray-400 pb-10"
       remarkPlugins={[remarkGfm]}
       components={{
         code({ node, inline, className, children, ...props }) {
@@ -31,7 +31,7 @@ const MarkdownViewer = ({ content }: { content: string }) => {
         },
         img: (image) => (
           <Image
-            className="w-full"
+            className="w-auto"
             src={image.src || ""}
             alt={image.alt || ""}
             width={500}

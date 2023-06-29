@@ -8,7 +8,7 @@ import Velog from "../Layout/svg/Velog";
 const Profile = () => {
   return (
     <section className="overflow-hidden">
-      <div className="flex justify-center items-center mx-auto">
+      <div className="flex justify-center items-center mx-auto ">
         <Image
           className="w-24 h-24 my-8 rounded-full sm:w-32 sm:h-32"
           src={me}

@@ -13,8 +13,8 @@ const quickSand = Quicksand({
 
 export const metadata = {
   title: {
-    default: "단테의 블로그",
-    template: "단테의 블로그 | %s",
+    default: "Dante's tech blog",
+    template: "Dante's tech blog | %s",
   },
   description: "주니어 프론트엔드 개발자 단테의 블로그",
   icons: {
