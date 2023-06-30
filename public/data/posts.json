@@ -53,16 +53,5 @@
     "featured": false,
     "storyTitle": "Next.js로 블로그 만들기",
     "story": "nextjs-bolg"
-  },
-  {
-    "title": "[Next.js] SEO 최적화",
-    "description": "SEO 최적화 작업하기",
-    "imageURL": "https://img.freepik.com/free-vector/coding-workshop-concept-illustration_114360-8112.jpg?w=2000&t=st=1687620680~exp=1687621280~hmac=ad5474533e26bd393f74e896729d71e302b25e08ba9e075a73dcae844c4571c9",
-    "date": "2023-06-30",
-    "category": "story",
-    "path": "nextjs-blog-06",
-    "featured": false,
-    "storyTitle": "Next.js로 블로그 만들기",
-    "story": "nextjs-bolg"
   }
 ]
