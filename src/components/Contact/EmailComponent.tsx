@@ -35,9 +35,7 @@ const EmailComponent = () => {
       })
       .catch(() => {
         setBanner({
-          message: process.env.AUTH_USER
-            ? process.env.AUTH_USER.toString()
-            : "메일 전송에 실패했습니다.",
+          message: "메일 전송에 실패했습니다! 다시 시도해 주세요.",
           state: "error",
         });
       })
