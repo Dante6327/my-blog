@@ -7,7 +7,7 @@ const Contact = () => {
     <main>
       <Header />
       <p className="text-2xl font-semibold py-10 text-center">
-        Or Send me an email
+        Or Send me an email.
       </p>
       <EmailComponent />
     </main>
