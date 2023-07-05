@@ -7,9 +7,7 @@ type Props = {
   post: Post;
 };
 
-const PostCard = ({
-  post: { title, description, date, category, path },
-}: Props) => {
+const PostCard = ({ post: { title, date, category, path } }: Props) => {
   return (
     <Link href={`/posts/${path}`}>
       <article className="dark:bg-slate-700 rounded-md overflow-hidden shadow-sm shadow-gray-400 transition ease-in-out hover:scale-105 mt-1 max-w-sm mx-auto p-4">
