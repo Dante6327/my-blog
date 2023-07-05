@@ -5,7 +5,6 @@ import { cache } from "react";
 export type Post = {
   title: string;
   description: string;
-  imageURL: string;
   date: Date;
   category: string;
   path: string;

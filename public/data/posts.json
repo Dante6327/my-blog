@@ -2,7 +2,6 @@
   {
     "title": "[Next.js] 블로그 프로젝트 준비",
     "description": "블로그를 만들 때 고려한 것",
-    "imageURL": "https://img.freepik.com/free-vector/coding-workshop-concept-illustration_114360-8112.jpg?w=2000&t=st=1687620680~exp=1687621280~hmac=ad5474533e26bd393f74e896729d71e302b25e08ba9e075a73dcae844c4571c9",
     "date": "2023-06-25",
     "category": "story",
     "path": "nextjs-blog-01",
@@ -13,7 +12,6 @@
   {
     "title": "[Next.js] 다크모드 & 반응형",
     "description": "다크모드와 반응형을 구현해보았습니다!",
-    "imageURL": "https://img.freepik.com/free-vector/coding-workshop-concept-illustration_114360-8112.jpg?w=2000&t=st=1687620680~exp=1687621280~hmac=ad5474533e26bd393f74e896729d71e302b25e08ba9e075a73dcae844c4571c9",
     "date": "2023-06-26",
     "category": "story",
     "path": "nextjs-blog-02",
@@ -24,7 +22,6 @@
   {
     "title": "[Next.js] react-multi-carousel",
     "description": "캐러셀 라이브러리를 활용한 포스트 슬라이드 구현",
-    "imageURL": "https://img.freepik.com/free-vector/coding-workshop-concept-illustration_114360-8112.jpg?w=2000&t=st=1687620680~exp=1687621280~hmac=ad5474533e26bd393f74e896729d71e302b25e08ba9e075a73dcae844c4571c9",
     "date": "2023-06-27",
     "category": "story",
     "path": "nextjs-blog-03",
@@ -35,7 +32,6 @@
   {
     "title": "[Next.js] 메일 전송 기능 만들기",
     "description": "nodemailer를 활용한 메일 전송 기능 구현",
-    "imageURL": "https://img.freepik.com/free-vector/coding-workshop-concept-illustration_114360-8112.jpg?w=2000&t=st=1687620680~exp=1687621280~hmac=ad5474533e26bd393f74e896729d71e302b25e08ba9e075a73dcae844c4571c9",
     "date": "2023-06-28",
     "category": "story",
     "path": "nextjs-blog-04",
@@ -46,7 +42,6 @@
   {
     "title": "[Next.js] 마크다운 뷰어 사용하기",
     "description": "react-markdown과 remark-gfm을 사용해 마크다운 사용하기",
-    "imageURL": "https://img.freepik.com/free-vector/coding-workshop-concept-illustration_114360-8112.jpg?w=2000&t=st=1687620680~exp=1687621280~hmac=ad5474533e26bd393f74e896729d71e302b25e08ba9e075a73dcae844c4571c9",
     "date": "2023-06-29",
     "category": "story",
     "path": "nextjs-blog-05",
