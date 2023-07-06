@@ -10,7 +10,7 @@ type Props = {
 const PostCard = ({ post: { title, date, category, path } }: Props) => {
   return (
     <Link href={`/posts/${path}`}>
-      <article className="dark:bg-slate-700 rounded-md overflow-hidden shadow-sm shadow-gray-400 transition ease-in-out hover:scale-105 mt-1 max-w-sm mx-auto p-4">
+      <article className="dark:bg-slate-700 rounded-md overflow-hidden shadow-sm shadow-gray-600 transition ease-in-out hover:scale-105 mt-1 max-w-sm mx-auto p-4">
         <div className="flex flex-col items-center">
           <h3 className="text-lg font-bold h-16">{title}</h3>
           <time className="self-end text-gray-400 text-xs">

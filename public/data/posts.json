@@ -48,5 +48,15 @@
     "featured": false,
     "storyTitle": "Next.js로 블로그 만들기",
     "story": "nextjs-bolg"
+  },
+  {
+    "title": "vercel 배포시 환경변수 setting",
+    "description": "next.js 블로그의 contact 페이지가 vercel에 배포된 후 동작하지 않아 알아보았습니다.",
+    "date": "2023-07-06",
+    "category": "TIL",
+    "path": "environment-variables-setting",
+    "featured": false,
+    "storyTitle": "",
+    "story": ""
   }
 ]
