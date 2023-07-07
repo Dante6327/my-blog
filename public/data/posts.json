@@ -54,9 +54,19 @@
     "description": "next.js 블로그의 contact 페이지가 vercel에 배포된 후 동작하지 않아 알아보았습니다.",
     "date": "2023-07-06",
     "category": "TIL",
-    "path": "environment-variables-setting",
+    "path": "til-01",
     "featured": false,
     "storyTitle": "",
     "story": ""
+  },
+  {
+    "title": "Next.js로 블로그 만들기 회고",
+    "description": "블로그를 제작하며 느꼈던 것들에 대해...",
+    "date": "2023-07-06",
+    "category": "회고록",
+    "path": "retro-01",
+    "featured": false,
+    "storyTitle": "회고록(回顧錄)",
+    "story": "retro"
   }
 ]
