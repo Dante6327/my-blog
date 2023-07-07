@@ -1,5 +1,3 @@
-### 다크모드 적용하기
-
 다크모드 적용에 대해 포스팅하겠습니다.
 ~~사실 처음에 styled-components로 개발하려다가 최신 버전의 의존성 문제와 theme 적용의 어려움으로 tailwindCSS를 사용하였습니다.~~
 next js 설치할 때 tailwindCSS를 설치할 것인지 물어보더군요.  

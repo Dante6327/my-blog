@@ -1,5 +1,3 @@
-### vercel에 환경변수 셋팅하기
-
 blog의 contact 페이지가 로컬에서만 동작하고 vercel에 배포된 페이지에서는 동작하지 않았습니다.  
 .env.local 파일에 설정한 AUTH_USER, AUTH_PASS 변수의 값을 별도로 배포하지 않아 발생한 문제였습니다.
 
