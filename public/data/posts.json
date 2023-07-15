@@ -74,7 +74,17 @@
     "description": "React Native로 앱을 만들어봅시다.",
     "date": "2023-07-07",
     "category": "TIL",
-    "path": "rn-01",
+    "path": "til-02",
+    "featured": true,
+    "storyTitle": "",
+    "story": ""
+  },
+  {
+    "title": "express.js 초기 셋팅",
+    "description": "백엔드를 공부하면서 기록해봅니다.",
+    "date": "2023-07-13",
+    "category": "TIL",
+    "path": "til-03",
     "featured": true,
     "storyTitle": "",
     "story": ""
